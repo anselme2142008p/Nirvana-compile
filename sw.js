@@ -1,4 +1,4 @@
-const V='nc-v6',CORE=['./','index.html','manifest.webmanifest','icon-192.png','icon-512.png'];
+const V='nc-v8',CORE=['./','index.html','manifest.webmanifest','icon-192.png','icon-512.png'];
 const SK='https://cdn.jsdelivr.net/npm/skulpt@1.2.0/dist/',EXT=[SK+'skulpt.min.js',SK+'skulpt-stdlib.js'];
 self.addEventListener('install',e=>e.waitUntil((async()=>{
   const c=await caches.open(V);await c.addAll(CORE);
